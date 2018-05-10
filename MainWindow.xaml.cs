@@ -27,13 +27,6 @@ namespace BasicWpfNotepad
             InitializeComponent();
         }
 
-        // 新開檔案按鈕
-        private void NewBtn_Click(object sender, RoutedEventArgs e)
-        {
-            filePath = "";
-            TextArea.Text = "";
-        }
-
 
         // 開啟檔案按鈕
         private void OpenBtn_Click(object sender, RoutedEventArgs e)
@@ -58,27 +51,6 @@ namespace BasicWpfNotepad
 
         // 存檔檔案按鈕
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
-        {
-            if (filePath != "")
-            {
-                System.IO.File.WriteAllText(filePath, TextArea.Text);
-            }
-            else
-            {
-                SaveAs();
-            }
-        }
-
-
-        // 另存檔案按鈕
-        private void SaveAsBtn_Click(object sender, RoutedEventArgs e)
-        {
-            SaveAs();
-        }
-
-
-        // 另存檔案
-        private void SaveAs()
         {
             // 產生開啟檔案視窗 OpenFileDialog 
             Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();

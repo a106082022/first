@@ -18,10 +18,8 @@
 
         <Grid Grid.Column="1" Background="LightGray">
             <StackPanel Margin="10">
-                <Button Margin="0,0,0,10" x:Name="NewBtn" Click="NewBtn_Click">New</Button>
                 <Button Margin="0,0,0,10" x:Name="OpenBtn" Click="OpenBtn_Click">Open</Button>
                 <Button Margin="0,0,0,10" x:Name="SaveBtn" Click="SaveBtn_Click">Save</Button>
-                <Button Margin="0,0,0,10" x:Name="SaveAsBtn" Click="SaveAsBtn_Click">Save As</Button>
             </StackPanel>
         </Grid>
     </Grid>
