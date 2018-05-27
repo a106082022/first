@@ -81,7 +81,7 @@ namespace BasicWpfNotepad
         private void aaa_Click(object sender, RoutedEventArgs e)
 
         {
-            TextArea.FontSize = 72;
+            TextArea.FontSize = 28;
         }
 
     }
