@@ -8,18 +8,23 @@
         Title="Basic Notepad" Height="400" Width="640">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="142"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="0">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="1">
             <TextBox AcceptsReturn="True" TextWrapping="Wrap" BorderThickness="0" Padding="15" x:Name="TextArea"></TextBox>
         </ScrollViewer>
 
-        <Grid Grid.Column="1" Background="LightGray">
+        <Grid Grid.Column="0" Background="LightGray">
             <StackPanel Margin="10">
                 <Button Margin="0,0,0,10" x:Name="OpenBtn" Click="OpenBtn_Click">Open</Button>
                 <Button Margin="0,0,0,10" x:Name="SaveBtn" Click="SaveBtn_Click">Save</Button>
+                <Button x:Name="a" Click="a_Click" Width="20" Height="20" FontFamily="Constantia" Background="{x:Null}" Foreground="Black" FontSize="14">A</Button>
+                <Button x:Name="aa" Click="aa_Click" Width="28" Height="28" FontFamily="Constantia" Background="{x:Null}" Foreground="Black" FontSize="20">A</Button>
+                <Button x:Name="aaa" Click="aaa_Click" Width="40" Height="40" FontFamily="Constantia" Background="{x:Null}" Foreground="Black" FontSize="28">A</Button>
+                <Button Margin="0,0,0,10" x:Name="SaveAsBtn" Click="SaveBtn_Click">Save As</Button>
+
             </StackPanel>
         </Grid>
     </Grid>

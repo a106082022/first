@@ -68,5 +68,21 @@ namespace BasicWpfNotepad
                 System.IO.File.WriteAllText(filePath, TextArea.Text);
             }
         }
+        private void a_Click(object sender, RoutedEventArgs e)
+        
+            {
+                TextArea.FontSize = 14;
+            }
+        private void aa_Click(object sender, RoutedEventArgs e)
+
+        {
+            TextArea.FontSize = 20;
+        }
+        private void aaa_Click(object sender, RoutedEventArgs e)
+
+        {
+            TextArea.FontSize = 72;
+        }
+
     }
 }
