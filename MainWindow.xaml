@@ -23,7 +23,8 @@
                 <Button x:Name="a" Click="a_Click" Width="20" Height="20" FontFamily="Constantia" Background="{x:Null}" Foreground="Black" FontSize="14">A</Button>
                 <Button x:Name="aa" Click="aa_Click" Width="28" Height="28" FontFamily="Constantia" Background="{x:Null}" Foreground="Black" FontSize="20">A</Button>
                 <Button x:Name="aaa" Click="aaa_Click" Width="40" Height="40" FontFamily="Constantia" Background="{x:Null}" Foreground="Black" FontSize="28">A</Button>
-                
+                <Button Margin="0,10,0,10" x:Name="WWW" Click="WWW_Click">White Backgrund</Button>
+                <Button Margin="0,0,0,10" x:Name="BBB" Click="BBB_Click">Black Backgrund</Button>
 
             </StackPanel>
         </Grid>

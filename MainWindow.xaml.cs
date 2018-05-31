@@ -70,9 +70,9 @@ namespace BasicWpfNotepad
         }
         private void a_Click(object sender, RoutedEventArgs e)
         
-            {
+        {
                 TextArea.FontSize = 14;
-            }
+        }
         private void aa_Click(object sender, RoutedEventArgs e)
 
         {
@@ -83,6 +83,19 @@ namespace BasicWpfNotepad
         {
             TextArea.FontSize = 28;
         }
+        private void WWW_Click(object sender, RoutedEventArgs e)
 
+        {
+            TextArea.Background = Brushes.White;
+            TextArea.Foreground = Brushes.Black
+                ;
+        }
+        private void BBB_Click(object sender, RoutedEventArgs e)
+
+        {
+            TextArea.Background = Brushes.Black;
+            TextArea.Foreground = Brushes.White
+                ;
+        }
     }
 }
